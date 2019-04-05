@@ -1,0 +1,26 @@
+.bg-pattern-dark,
+.bg-pattern-darkblue,
+.bg-pattern-lightgray,
+.bg-pattern-light {
+  background-size: 400px 400px;  
+}
+
+.bg-pattern-dark {
+  background-image: url("/img/pattern-dark.jpg");
+}
+
+.bg-pattern-darkblue {
+  background-image: url("/img/pattern-darkblue.jpg");
+}
+
+.bg-pattern-lightgray {
+  background-image: url("/img/pattern-lightgray.jpg");
+}
+
+.bg-pattern-light {
+  background-image: url("/img/pattern-light.jpg");
+}
+
+.bg-gray {
+  background-color: $gray-200;
+}

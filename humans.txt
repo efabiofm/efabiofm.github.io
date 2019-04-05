@@ -1,0 +1,14 @@
+/* TEAM */
+
+    Name: Fabio Flores
+    Contact: efabiofm [at] gmail.com
+    From: San Jose, Costa Rica
+
+/* SITE */
+
+    Last update: 2018-03-30
+    Language: Spanish / English
+    Doctype: HTML5
+    IDE: Visual Studio Code
+    SCM: Git
+    Hosting: Linode
