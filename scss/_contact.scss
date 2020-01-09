@@ -1,0 +1,31 @@
+#contact {
+  h4 {
+    text-transform: uppercase;
+  }
+  a, p {
+    color: $gray-500;
+  }
+  a {
+    text-decoration: none;
+  }
+  i {
+    color: $danger;
+  }
+  ul {
+    padding-left: 18px;
+  }
+}
+
+.contact-item {
+  display: flex;
+  div {
+    margin-left: 1em;
+  }
+}
+
+.copyright {
+  background: black;
+  color: $gray-500;
+  padding: 1em;
+  text-align: center;
+}

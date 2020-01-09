@@ -1,36 +1,19 @@
 // Styling for the navbar
 #mainNav {
-  border-bottom: 1px solid fade-out($gray-900, .9);
   background-color: $gray-900;
   @include sans-serif-font;
   @include transition-all;
-  .navbar-brand {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $white;
-    @include sans-serif-font;
-    &:focus,
-    &:hover {
-      color: darken($info, .1);
-    }
-  }
+
   .navbar-nav {
     > li.nav-item {
-       > a.nav-link,
+      > a.nav-link,
       > a.nav-link:focus {
         font-size: .9rem;
-        font-weight: 700;
         text-transform: uppercase;
-        color: $gray-400;
-        &:hover {
-          color: $info;
-        }
+        color: $white;
         &.active {
-          color: $info !important;
+          color: $danger !important;
           background-color: transparent;
-          &:hover {
-            background-color: transparent;
-          }
         }
       }
     }
@@ -38,43 +21,44 @@
   @media (min-width: 992px) {
     border-color: transparent;
     background-color: transparent;
-    .navbar-brand {
-      color: fade-out($white, .3);
-      &:focus,
-      &:hover {
-        color: $white;
-      }
-    }
     .navbar-nav > li.nav-item > a.nav-link {
-      padding: 0.5rem 1rem;
+      margin: 0.5rem 1rem;
+      padding: 0 0 5px 0;
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out($white, .3);
+      color: $white;
       &:hover {
-        color: $white;
+        color: $danger;
+      }
+      &.active {
+        color: $white !important;
+        border-bottom: 2px solid $white;
+        background-color: transparent;
+        &:hover {
+          background-color: transparent;
+          color: $white !important;
+        }
       }
     }
     &.navbar-shrink {
-      border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $gray-900;
-      .navbar-brand {
-        &:hover {
-          color: darken($info, .1);
-        }
-      }
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: $gray-400;
+        color: $white;
         &:hover {
-          color: $info;
+          color: $danger;
+        }
+        &.active {
+          color: $white !important;
+          border-bottom: 2px solid $white;
+          background-color: transparent;
+          &:hover {
+            background-color: transparent;
+            color: $white !important;
+          }
         }
       }
     }
   }
-}
-
-.translator {
-  margin-top: 8px;
-  cursor: pointer;
 }
