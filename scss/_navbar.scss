@@ -12,7 +12,7 @@
         text-transform: uppercase;
         color: $white;
         &.active {
-          color: $danger !important;
+          color: $white !important; // $danger
           background-color: transparent;
         }
       }
@@ -29,7 +29,7 @@
     .navbar-nav > li.nav-item > a.nav-link:focus {
       color: $white;
       &:hover {
-        color: $danger;
+        color: $white; // $danger
       }
       &.active {
         color: $white !important;

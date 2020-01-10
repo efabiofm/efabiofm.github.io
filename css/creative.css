@@ -117,7 +117,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #dc3545 !important;
+  color: #fff !important;
   background-color: transparent;
 }
 
@@ -136,7 +136,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #dc3545;
+    color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
@@ -183,6 +183,7 @@ header.masthead {
 
 header.masthead h1 {
   font-size: 1rem;
+  font-family: monospace;
 }
 
 header.masthead h2 {
@@ -193,6 +194,28 @@ header.masthead h2 {
 
 header.masthead .separator {
   margin: 25px;
+}
+
+header.masthead .btn {
+  font-size: 12px;
+}
+
+header.masthead .btn-xl {
+  padding: .8rem 1rem;
+}
+
+header.masthead a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+header.masthead a:hover {
+  color: #dc3545;
+}
+
+header.masthead .icon-container {
+  margin-top: 1em;
 }
 
 @media (min-width: 992px) {
@@ -214,6 +237,15 @@ header.masthead .separator {
   }
   header.masthead .separator {
     margin: 50px;
+  }
+  header.masthead .btn {
+    font-size: 1rem;
+  }
+  header.masthead .btn-xl {
+    padding: 1rem 2rem;
+  }
+  header.masthead a {
+    font-size: 2em;
   }
 }
 

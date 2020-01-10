@@ -78,19 +78,6 @@ img::-moz-selection {
   background: transparent;
 }
 
-.img-circle {
-  max-width: 80%;
-  border-radius: 50%;
-  @media (min-width: 768px) and (min-width: 992px) {
-    max-width: 100%;
-  }
-}
-
-.icon-link {
-  text-decoration: none !important;
-  color: $white;
-}
-
 .separator {
   margin: 50px;
 }
